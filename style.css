@@ -1,0 +1,41 @@
+body {
+	font-family: arial;
+	margin: 0;
+}
+
+/* Header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background-color: yellow;
+  color: red;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Side column */
+.side {
+  flex: 5%;
+  background-color: grey;
+  padding: 10px;
+}
+
+/* Main column */
+.main {
+	  min-height: 60vh;
+  	flex: 70%;
+  	background-color: lightblue;
+  	padding: 15px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: yellow;
+  color: red;
+}
